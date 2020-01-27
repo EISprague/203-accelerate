@@ -38,9 +38,62 @@ Text Domain:  accelerate-theme-child
 .blog-post h3 {
 	font-size: 1.5em;
 }
-.read-more-link {
+.read-more-link, .live-site-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+.case-study-sidebar {
+	float: left;
+	width: 40%;
+}
+.case-study-images {
+	float: right;
+	max-width: 55%;
+}
+article.case-study {
+	overflow: auto;
+}
+article.case-study h5 {
+	font-size: 14px;
+	color: gray;
+}
+.featured-work h4 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.featured-work ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+}
+.featured-work ul li {
+	justify-content: space-between;
+}
+.featured-work ul li figure {
+	margin: 1em;
+}
+.featured-work ul li h3 {
+	text-align: center;
+}
+#menu-social-media-nav {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	width: 100px;
+}
+#menu-social-media-nav li i {
+	background-color: #3b3b3b;
+	color: #fff;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+}
+#menu-social-media-nav li i::before {
+	line-height: 40px;
+	vertical-align: middle;
 }
