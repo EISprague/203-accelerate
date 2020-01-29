@@ -17,12 +17,15 @@ Text Domain:  accelerate-theme-child
 #masthead {
 	background: none repeat scroll 0 0 #45ac9d;
 }
-.button {
+.button, input[type="button"].ninja-forms-field {
     font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
     color: #fff;
 	background: #45ac9d;
     padding: 1em 3.75em;
     text-align: center;
+}
+input[type="button"].ninja-forms-field {
+	float: right;
 }
 .blog-post {
 	width: 50%;
@@ -96,4 +99,17 @@ article.case-study h5 {
 #menu-social-media-nav li i::before {
 	line-height: 40px;
 	vertical-align: middle;
+}
+.ninja-forms-req-symbol {
+	display: none;
+}
+.page-template-default #primary {
+	max-width: 650px;
+}
+.page-template-default h2 {
+	font-size: 1.75em;
+	margin: 0;
+}
+.page-template-default p {
+	//font-size: 20px;
 }
