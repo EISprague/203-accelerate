@@ -2,8 +2,7 @@
 Theme Name:   Accelerate Theme Child
 Theme URI:    http://example.com/accelerate-theme-child/
 Description:  Accelerate Child Theme - Accelerate
-Author:   	Your Name!
-Author URI:   http://example.com
+Author:   	Emily Sprague
 Template: 	accelerate-theme
 Version:      2.0.0
 Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -102,14 +101,4 @@ article.case-study h5 {
 }
 .ninja-forms-req-symbol {
 	display: none;
-}
-.page-template-default #primary {
-	max-width: 650px;
-}
-.page-template-default h2 {
-	font-size: 1.75em;
-	margin: 0;
-}
-.page-template-default p {
-	//font-size: 20px;
 }
