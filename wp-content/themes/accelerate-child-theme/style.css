@@ -13,6 +13,67 @@ Text Domain:  accelerate-theme-child
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 	text-align: center;
 }
+.about-image {
+	background: url("img/taxi-photo.jpg") no-repeat scroll right bottom / cover rgba(0, 0, 0, 0);
+	height: 18em;
+}
+.about .main-content {
+	padding: 0;
+	margin-top: -18em;
+}
+.about h2 {
+	margin: auto;
+	padding: 3em 0;
+	width: 650px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	color: #fff;
+}
+.about h3 {
+	margin: 0;
+	color: #3b3b3b;
+	font-size: 1.5em;
+}
+.about h4 {
+	margin-top: 70px;
+	text-transform: uppercase;
+}
+.about figure {
+	display: inline-block;
+}
+.about .services-list {
+	margin: 60px 0 0 0;
+	list-style-type: none;
+}
+.about .services-list li {
+	padding: 30px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.about .services-list li:nth-child(even) {
+	flex-direction: row-reverse;
+}
+.about .service-text {
+	width: 600px;
+}
+.about .contact-link {
+	padding: 34px 0 0 0;
+	border-top: 1px solid #bfbfbf;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.about .contact-link span {
+	font-weight: bold;
+}
+.about .contact-link .divider {
+	width: 30px;
+}
 #masthead {
 	background: none repeat scroll 0 0 #45ac9d;
 }
@@ -81,6 +142,7 @@ article.case-study h5 {
 	text-align: center;
 }
 #menu-social-media-nav {
+	margin: 0;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
