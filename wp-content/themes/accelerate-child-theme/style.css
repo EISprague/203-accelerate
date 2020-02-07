@@ -164,3 +164,24 @@ article.case-study h5 {
 .ninja-forms-req-symbol {
 	display: none;
 }
+.flex-404 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.text-404 {
+	width: 60%;
+}
+.text-404 h2 {
+	font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #45ac9d;
+	font-size: 2em;
+	margin: 0;
+}
+.text-404 a {
+	font-weight: bold;
+	color: #45ac9d;
+}
