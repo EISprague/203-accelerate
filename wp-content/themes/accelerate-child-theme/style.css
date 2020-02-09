@@ -87,12 +87,16 @@ Text Domain:  accelerate-theme-child
 input[type="button"].ninja-forms-field {
 	float: right;
 }
+.recent-posts .site-content {
+	display: flex;
+	justify-content: space-between;
+}
 .blog-post {
-	width: 50%;
-	float: left;
+	margin: 0;
+	width: 45%;
 	margin-bottom: 2em;
 }
-.blog-post h4 {
+.blog-post h4, h3.widget-title {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
@@ -100,6 +104,19 @@ input[type="button"].ninja-forms-field {
 }
 .blog-post h3 {
 	font-size: 1.5em;
+}
+#secondary.widget-area {
+	margin: 0;
+	width: 45%;
+}
+.widget_mc4wp_form_widget input[type="submit"] {
+	background-color: #45ac9d;
+	font-family: 'Open Sans';
+	padding: 0;
+	width: 100%;
+}
+.widget_mc4wp_form_widget .mc4wp-form-fields label {
+	font: 600 0.875em/1.5 'Open Sans';
 }
 .read-more-link, .live-site-link {
 	font-family: 'Montserrat';
